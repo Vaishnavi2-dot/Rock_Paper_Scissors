@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    font-size: 40px;
+    background-color: rgb(3, 9, 82);
+    color: white;
+    height: 15vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.images{
+    margin-top: 10vmin;
+    display: flex;
+    justify-content: center;
+    gap: 10vmin;
+}
+
+.images button{
+    width: 30vmin;
+    height: 30vmin;
+    border-radius: 50%;
+    border:none; 
+}
+.images button:hover{
+border-color: #081b31;
+border: 5px solid
+}
+#rock{
+    background-image: url(rock.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+}
+#paper{
+    background-image: url(paper.png);
+    background-size: cover;
+}
+#scissors{
+    background-image: url(scissors.png);
+    background-size: cover;
+}
+
+ .score-board{
+    margin-top: 10vmin;
+    display: flex;
+    justify-content: center;
+  align-items:center;
+ }
+ .user_score{
+ display: flex;
+    justify-content: center;
+  align-items:center;
+  height: 5vmin;
+  width: 5vmin;
+  flex-wrap: wrap;
+  margin-right: 15vmin;
+  font-size: 5vmin;
+ }
+ .comp_score{
+    display: flex;
+    justify-content: center;
+  align-items:center;
+  height: 5vmin;
+  width: 5vmin;
+  flex-wrap: wrap;
+  margin: 5vmin;
+  font-size: 5vmin;
+ }
+.msg-container{
+    margin-top: 10vmin;
+    display: flex;
+    justify-content: center;
+}
+.msg-container button{
+    padding: 2vmin 4vmin;
+    font-size: 3vmin;
+    background-color: rgb(3, 9, 82);
+    color: white;
+    border-radius: 10px;}
